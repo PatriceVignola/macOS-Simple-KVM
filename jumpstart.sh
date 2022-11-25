@@ -34,16 +34,16 @@ case $argument in
     -m|--mojave)
         "$TOOLS/FetchMacOS/fetch.sh" -v 10.14 || exit 1;
         ;;
-    -c|--catalina|*)
+    -c|--catalina)
         "$TOOLS/FetchMacOS/fetch.sh" -v 10.15 || exit 1;
         ;;
-    -b|--big-sur|*)
+    -b|--big-sur)
         "$TOOLS/FetchMacOS/fetch.sh" -v 11 || exit 1;
         ;;
-    -o|--monterey|*)
+    -o|--monterey)
         "$TOOLS/FetchMacOS/fetch.sh" -v 12|| exit 1;
         ;;
-    -v|--ventura|*)
+    -v|--ventura)
         "$TOOLS/FetchMacOS/fetch.sh" -v 13 || exit 1;
         ;;
 esac
